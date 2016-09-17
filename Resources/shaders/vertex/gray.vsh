@@ -10,7 +10,6 @@ varying vec2 v_texCoord1;
 
 void main(void)
 {
-
    v_texCoord1 = a_texCoord;
 
    gl_Position = CC_PMatrix * a_position;

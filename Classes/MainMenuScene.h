@@ -9,7 +9,8 @@ public:
 	static cocos2d::Scene* createScene();
 
 	virtual bool init();
-
+	void gameStart(cocos2d::Ref* pSender, int type);
+	void gameSettings(cocos2d::Ref* pSender, int type);
 	void menuCloseCallback(cocos2d::Ref* sender);
 
 	CREATE_FUNC(MainMenuScene);
